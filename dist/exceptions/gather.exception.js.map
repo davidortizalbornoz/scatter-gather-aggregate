@@ -1,1 +1,0 @@
-{"version":3,"file":"gather.exception.js","sourceRoot":"","sources":["../../src/exceptions/gather.exception.ts"],"names":[],"mappings":";;;AAAA,2CAA+C;AAE/C,MAAa,eAAgB,SAAQ,sBAAa;IAChD,YAAY,QAAa;QACvB,KAAK,CAAC,QAAQ,EAAE,QAAQ,CAAC,UAAU,CAAC,CAAC;QACrC,MAAM,CAAC,MAAM,CAAC,IAAI,EAAE,QAAQ,CAAC,CAAC;IAChC,CAAC;CACF;AALD,0CAKC"}
