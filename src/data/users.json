@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "USR-001",
+      "firstName": "Juan",
+      "lastName": "Pérez",
+      "email": "juan.perez@empresa.cl",
+      "role": "admin",
+      "department": "IT",
+      "permissions": ["read", "write", "delete", "admin", "manage_users", "manage_roles"],
+      "lastLogin": "2025-10-03T15:30:00Z",
+      "status": "active",
+      "metadata": {
+        "location": "Santiago",
+        "employeeId": "EMP-123",
+        "hireDate": "2024-01-15"
+      }
+    },
+    {
+      "id": "USR-002",
+      "firstName": "María",
+      "lastName": "González",
+      "email": "maria.gonzalez@empresa.cl",
+      "role": "user",
+      "department": "Marketing",
+      "permissions": ["read", "write"],
+      "lastLogin": "2025-10-04T09:15:00Z",
+      "status": "active",
+      "metadata": {
+        "location": "Valparaíso",
+        "employeeId": "EMP-124",
+        "hireDate": "2024-03-01"
+      }
+    },
+    {
+      "id": "USR-003",
+      "firstName": "Carlos",
+      "lastName": "Rodríguez",
+      "email": "carlos.rodriguez@empresa.cl",
+      "role": "manager",
+      "department": "Sales",
+      "permissions": ["read", "write", "delete", "manage_team"],
+      "lastLogin": "2025-10-04T08:45:00Z",
+      "status": "active",
+      "metadata": {
+        "location": "Concepción",
+        "employeeId": "EMP-125",
+        "hireDate": "2024-02-15"
+      }
+    },
+    {
+      "id": "USR-004",
+      "firstName": "Ana",
+      "lastName": "Martínez",
+      "email": "ana.martinez@empresa.cl",
+      "role": "developer",
+      "department": "IT",
+      "permissions": ["read", "write", "deploy"],
+      "lastLogin": "2025-10-04T10:00:00Z",
+      "status": "active",
+      "metadata": {
+        "location": "Santiago",
+        "employeeId": "EMP-126",
+        "hireDate": "2024-04-01"
+      }
+    },
+    {
+      "id": "USR-005",
+      "firstName": "Pedro",
+      "lastName": "Sánchez",
+      "email": "pedro.sanchez@empresa.cl",
+      "role": "analyst",
+      "department": "Finance",
+      "permissions": ["read", "write", "analyze"],
+      "lastLogin": "2025-10-03T17:20:00Z",
+      "status": "active",
+      "metadata": {
+        "location": "Viña del Mar",
+        "employeeId": "EMP-127",
+        "hireDate": "2024-05-15"
+      }
+    }
+  ]
+}

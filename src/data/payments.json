@@ -1,0 +1,99 @@
+{
+  "payments": [
+    {
+      "id": "PAY-001",
+      "amount": 1299990,
+      "currency": "CLP",
+      "type": "credit_card",
+      "status": "completed",
+      "timestamp": "2025-10-04T09:30:00Z",
+      "confirmed": true,
+      "metadata": {
+        "orderId": "ORD-123",
+        "userId": "USR-001",
+        "productId": "PRD-001"
+      },
+      "paymentDetails": {
+        "cardType": "visa",
+        "lastFourDigits": "4532",
+        "installments": 12
+      }
+    },
+    {
+      "id": "PAY-002",
+      "amount": 549990,
+      "currency": "CLP",
+      "type": "debit_card",
+      "status": "completed",
+      "timestamp": "2025-10-04T10:15:00Z",
+      "confirmed": true,
+      "metadata": {
+        "orderId": "ORD-124",
+        "userId": "USR-002",
+        "productId": "PRD-002"
+      },
+      "paymentDetails": {
+        "cardType": "mastercard",
+        "lastFourDigits": "8745",
+        "installments": 1
+      }
+    },
+    {
+      "id": "PAY-003",
+      "amount": 89990,
+      "currency": "CLP",
+      "type": "transfer",
+      "status": "pending",
+      "timestamp": "2025-10-04T11:00:00Z",
+      "confirmed": false,
+      "metadata": {
+        "orderId": "ORD-125",
+        "userId": "USR-003",
+        "productId": "PRD-003"
+      },
+      "paymentDetails": {
+        "bankName": "Banco Estado",
+        "accountType": "checking",
+        "transferId": "TRF-789"
+      }
+    },
+    {
+      "id": "PAY-004",
+      "amount": 69990,
+      "currency": "CLP",
+      "type": "webpay",
+      "status": "completed",
+      "timestamp": "2025-10-04T11:30:00Z",
+      "confirmed": true,
+      "metadata": {
+        "orderId": "ORD-126",
+        "userId": "USR-004",
+        "productId": "PRD-004"
+      },
+      "paymentDetails": {
+        "transactionId": "WP-456",
+        "paymentMethod": "credit",
+        "installments": 3
+      }
+    },
+    {
+      "id": "PAY-005",
+      "amount": 129990,
+      "currency": "CLP",
+      "type": "credit_card",
+      "status": "failed",
+      "timestamp": "2025-10-04T12:00:00Z",
+      "confirmed": false,
+      "metadata": {
+        "orderId": "ORD-127",
+        "userId": "USR-005",
+        "productId": "PRD-005"
+      },
+      "paymentDetails": {
+        "cardType": "visa",
+        "lastFourDigits": "1234",
+        "errorCode": "INSUFFICIENT_FUNDS"
+      }
+    }
+  ]
+}

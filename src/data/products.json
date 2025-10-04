@@ -1,0 +1,79 @@
+{
+  "products": [
+    {
+      "id": "PRD-001",
+      "name": "Laptop ThinkPad X1",
+      "category": "electronics",
+      "price": 1299999,
+      "quantity": 15,
+      "description": "Laptop de última generación para profesionales",
+      "specifications": {
+        "processor": "Intel i7",
+        "ram": "16GB",
+        "storage": "512GB SSD"
+      },
+      "brand": "Lenovo",
+      "status": "active"
+    },
+    {
+      "id": "PRD-002",
+      "name": "Monitor 4K UltraWide",
+      "category": "electronics",
+      "price": 549990,
+      "quantity": 8,
+      "description": "Monitor profesional de 34 pulgadas",
+      "specifications": {
+        "resolution": "3440x1440",
+        "refreshRate": "144Hz",
+        "panel": "IPS"
+      },
+      "brand": "LG",
+      "status": "active"
+    },
+    {
+      "id": "PRD-003",
+      "name": "Teclado Mecánico RGB",
+      "category": "accessories",
+      "price": 89990,
+      "quantity": 25,
+      "description": "Teclado gaming con switches Cherry MX",
+      "specifications": {
+        "switches": "Cherry MX Blue",
+        "layout": "TKL",
+        "backlight": "RGB"
+      },
+      "brand": "Corsair",
+      "status": "active"
+    },
+    {
+      "id": "PRD-004",
+      "name": "Mouse Inalámbrico Pro",
+      "category": "accessories",
+      "price": 69990,
+      "quantity": 30,
+      "description": "Mouse ergonómico profesional",
+      "specifications": {
+        "dpi": "16000",
+        "buttons": "8",
+        "connectivity": "2.4GHz/Bluetooth"
+      },
+      "brand": "Logitech",
+      "status": "active"
+    },
+    {
+      "id": "PRD-005",
+      "name": "Disco SSD NVMe",
+      "category": "storage",
+      "price": 129990,
+      "quantity": 12,
+      "description": "Disco de estado sólido de alta velocidad",
+      "specifications": {
+        "capacity": "1TB",
+        "readSpeed": "7000MB/s",
+        "writeSpeed": "5000MB/s"
+      },
+      "brand": "Samsung",
+      "status": "active"
+    }
+  ]
+}
