@@ -1,6 +1,7 @@
 # scatter-gather-aggregate
 
-Este proyecto es una aplicación construida con el framework Nest. Implementa un patrón de diseño de "scatter-gather" para la agregación de datos.
+Este proyecto es una aplicación construida con el framework Nest. 
+Implementa un patrón de diseño de "scatter-gather" & "aggregation" para la agregación de datos.
 
 ## Estructura del Proyecto
 
